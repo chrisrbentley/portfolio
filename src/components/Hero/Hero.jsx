@@ -1,7 +1,7 @@
 const Hero = () => {
 	return (
 		<section
-			className="p-12 m-6
+			className="p-12
 		"
 		>
 			<h1 className="text-5xl p-2">Christopher Bentley</h1>
