@@ -7,7 +7,7 @@ const NavBar = ({ windowSize }) => {
 		{ name: 'Home', href: '/' },
 		{ name: 'About Me', href: '#about-me' },
 		{ name: 'Projects', href: '#projects' },
-		{ name: 'Resume', href: '#resume' },
+		// { name: 'Resume', href: '#resume' },
 	]);
 
 	const handleOpen = () => {

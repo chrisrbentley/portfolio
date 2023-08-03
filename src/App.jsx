@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
+import Footer from './components/Footer/Footer';
 
 function App() {
 	const [windowSize, setWindowSize] = useState(window.innerWidth);
@@ -24,11 +25,12 @@ function App() {
 	return (
 		<>
 			<NavBar windowSize={windowSize} />
+			<Hero />
 			<main>
-				<Hero />
 				<About />
 				<Projects />
 			</main>
+			<Footer />
 		</>
 	);
 }
