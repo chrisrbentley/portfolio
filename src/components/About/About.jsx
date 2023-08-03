@@ -23,14 +23,12 @@ const About = () => {
 					About Me
 				</h3>
 				<div className="flex flex-col lg:flex-row justify-evenly items-center m-5">
-					{/* <div className="text-xl"> */}
 						<p className="text-center text-xl">
 							Hi, I&apos;m Christopher Bentley, a front end web developer in the
 							Metro-Atlanta area. {/* <br></br> */} When not coding, I enjoy watching
 							baseball, playing video games, {/* <br></br> */} learning about new
 							technologies and spending time with loved ones.
 						</p>
-					{/* </div> */}
 
 					<img
 						src="../assets/icons/computer.svg"
@@ -39,7 +37,7 @@ const About = () => {
 					/>
 				</div>
 			</section>
-			<section className="">
+			<section>
 				<h4 className="text-2xl p-2">Skills & Tools</h4>
 				<div className="flex flex-row flex-wrap m-7 justify-center">
 					{skills.map((skill, index) => {
