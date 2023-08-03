@@ -45,7 +45,7 @@ const NavBar = ({ windowSize }) => {
 					{navLinks.map((link, index) => {
 						return (
 							<a
-								className="p-2 text-xl transition-all duration-300 hover:scale-110"
+								className="p-2 text-xl transition-all duration-300 hover:scale-110 hover:text-[#77BFA3] ease-in-out duration-300"
 								key={index}
 								href={link.href}
 							>
