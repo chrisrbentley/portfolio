@@ -19,7 +19,7 @@ const NavBar = ({ windowSize }) => {
 			{windowSize <= 1000 ? (
 				<div className="flex justify-center flex-col w-4/5">
 					<button
-						className="p-2 m-2 self-start "
+						className="p-2 self-start "
 						onClick={handleOpen}
 					>
 						Menu

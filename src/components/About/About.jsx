@@ -23,12 +23,12 @@ const About = () => {
 					About Me
 				</h3>
 				<div className="flex flex-col lg:flex-row justify-evenly items-center m-5">
-						<p className="text-center text-xl">
-							Hi, I&apos;m Christopher Bentley, a front end web developer in the
-							Metro-Atlanta area. {/* <br></br> */} When not coding, I enjoy watching
-							baseball, playing video games, {/* <br></br> */} learning about new
-							technologies and spending time with loved ones.
-						</p>
+					<p className="text-center text-xl">
+						Hi, I&apos;m Christopher Bentley, a front end web developer in the
+						Metro-Atlanta area. {/* <br></br> */} When not coding, I enjoy
+						watching baseball, playing video games, {/* <br></br> */} learning
+						about new technologies and spending time with loved ones.
+					</p>
 
 					<img
 						src="../assets/icons/computer.svg"
